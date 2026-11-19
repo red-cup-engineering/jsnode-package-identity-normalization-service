@@ -1,0 +1,26 @@
+{
+  "name": "@red-cup-engineering/jsnode-package-identity-normalization-service",
+  "version": "1.0.1-dev.0",
+  "type": "module",
+  "description": "Pure JSNode package-identity normalization from an admitted package name and explicit owner.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/jsnode-package-identity-normalization-service.git"
+  },
+  "exports": "./src/normalize-jsnode-package-identity.mjs",
+  "scripts": {
+    "check": "check-package-syntax",
+    "verify": "npm run check"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@red-cup-engineering/jsnode-package-engineering-services-section": "workspace:*"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
